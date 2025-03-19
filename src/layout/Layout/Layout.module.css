@@ -59,3 +59,9 @@
 	justify-content: center;
 	gap: 9px;
 }
+
+.content {
+	padding: 40px 60px;
+	margin: 0;
+	width: 100%;
+}
