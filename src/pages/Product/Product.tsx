@@ -1,6 +1,7 @@
-import { useParams } from 'react-router';
+import { useLoaderData } from 'react-router';
+import { ProductType } from '../../intefaces/product.inteface';
 
 export const Product = () => {
-	const { id } = useParams();
-	return <div>Product {id}</div>;
+	const data = useLoaderData() as ProductType;
+	return <div>Product {data.id}</div>;
 };

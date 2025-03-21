@@ -1,11 +1,12 @@
 .button {
-	border-radius: 29px;
-	font-style: normal;
-	font-weight: 400;
+	font-family: inherit;
 	cursor: pointer;
 	transition: background 0.25s;
 	border: none;
 	color: var(--white-color);
+	border-radius: 29px;
+	font-style: normal;
+	font-weight: 400;
 }
 
 .small {
@@ -17,12 +18,13 @@
 	font-size: 15px;
 	text-transform: uppercase;
 	padding: 20px 60px;
-}
-
-.accent:hover {
-	background: var(--primary-color);
+	box-shadow: 0 10px 40px 0 rgba(122, 129, 190, 0.16);
 }
 
 .accent {
+	background: var(--primary-color);
+}
+
+.accent:hover {
 	background: var(--primary-hover-color);
 }
