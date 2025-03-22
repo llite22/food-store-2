@@ -6,7 +6,7 @@ import { FormEvent, useEffect, useState } from 'react';
 import { Link, useNavigate } from 'react-router';
 import { useDispatch, useSelector } from 'react-redux';
 import { AppDispatch, RootState } from '../../store/store';
-import { login, register, userActions } from '../../store/user.slice';
+import { register, userActions } from '../../store/user.slice';
 
 export const Register = () => {
 	const [data, setData] = useState<{
